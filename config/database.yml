@@ -7,12 +7,12 @@ default: &default
 
 development:
   <<: *default
-  database: g2-store_development
+  database: g2-store-review_development
   username: gschool_user
   password: password
 
 test:
   <<: *default
-  database: g2-store_test
+  database: g2-store-review_test
   username: gschool_user
   password: password
